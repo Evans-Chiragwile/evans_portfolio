@@ -1,0 +1,965 @@
+<!-- Hero -->
+<app-hero></app-hero>
+<!-- About -->
+<section class="w-full bg-white" id="about">
+    <div
+        class="relative flex flex-col w-full max-w-[1400px] m-auto gap-[50px] sm:gap-[65px] md:gap-[80px] px-[20px] sm:px-[24px] md:px-[30px] py-[60px] sm:py-[80px] md:py-[100px]">
+
+        <!-- Title Section -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-[24px] lg:gap-[20px]">
+            <div class="flex flex-col gap-[16px] sm:gap-[20px] lg:col-span-5">
+                <div class="flex items-center gap-[10px]">
+                    <span
+                        class="flex items-center justify-center w-[20px] h-[20px] rounded-full bg-[#E4FE00] flex-none">
+                        <svg class="w-[13px] h-[13px]" viewBox="0 0 256 256" fill="#0F3D3A">
+                            <path
+                                d="M218.29,182.17a12,12,0,0,1-16.47,4.12L140,149.19V216a12,12,0,0,1-24,0V149.19l-61.82,37.1a12,12,0,1,1-12.35-20.58L104.68,128,41.83,90.29A12,12,0,1,1,54.18,69.71L116,106.81V40a12,12,0,0,1,24,0v66.81l61.82-37.1a12,12,0,1,1,12.35,20.58L151.32,128l62.85,37.71A12,12,0,0,1,218.29,182.17Z">
+                            </path>
+                        </svg>
+                    </span>
+                    <p class="text-[14px] sm:text-[15px] font-[500] tracking-[-0.03em] text-[#616161]">About Me</p>
+                </div>
+                <h2
+                    class="text-[28px] sm:text-[34px] md:text-[40px] leading-[1.2em] tracking-[-0.03em] font-[500] text-black">
+                    I turn ideas into meaningful digital experiences
+                </h2>
+            </div>
+
+            <div class="flex flex-col gap-[24px] sm:gap-[30px] lg:col-span-7">
+                <div class="flex flex-col gap-[14px] sm:gap-[16px]">
+                    <p
+                        class="text-[14px] sm:text-[15px] md:text-[16px] leading-[1.3em] sm:leading-[1.2em] tracking-[-0.03em] font-[500] text-[#616161]">
+                        <span class="text-black">I'm Evans Chiragwile,</span> a software engineer focused on building
+                        modern web and mobile applications. I enjoy turning ideas and real-world problems into clean,
+                        intuitive, and reliable digital products.
+                    </p>
+                    <p
+                        class="text-[14px] sm:text-[15px] md:text-[16px] leading-[1.3em] sm:leading-[1.2em] tracking-[-0.03em] font-[500] text-[#616161]">
+                        My approach combines software engineering, thoughtful UI/UX design, and continuous learning. I
+                        focus on writing maintainable code and creating experiences that are simple, useful, and built
+                        to scale.
+                    </p>
+                </div>
+                <a href="/about"
+                    class="group relative flex w-fit items-center justify-center gap-[10px] rounded-[5px] bg-[#E4FE00] px-[20px] py-[12px] sm:py-[14px] overflow-hidden">
+                    <div class="relative h-[18px] sm:h-[20px] overflow-hidden flex items-center justify-center">
+                        <div class="transition-transform duration-300">
+
+                            <p
+                                class="text-[14px] sm:text-[15px] font-medium tracking-[-0.04em] text-[#0F3D3A] text-center">
+                                More about me</p>
+                        </div>
+                    </div>
+                    <svg class="h-[16px] w-[16px] sm:h-[18px] sm:w-[18px] transition-transform duration-300 group-hover:translate-x-1 flex-none"
+                        viewBox="0 0 256 256" fill="#0F3D3A">
+                        <path
+                            d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <!-- Content: Image collage + Feature cards -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-[20px] lg:gap-[10px]">
+
+            <!-- Image collage -->
+            <div class="grid grid-cols-2 gap-[8px] sm:gap-[10px] h-[420px] sm:h-[480px] md:h-[560px] lg:h-full">
+                <div class="relative w-full h-full rounded-[5px] overflow-hidden row-span-2">
+                    <img src="https://framerusercontent.com/images/T1ltlS9yayT9k7JqfNf8Q8O8KfM.jpg?width=3667&height=5500"
+                        alt="" class="block w-full h-full object-cover object-center" />
+                </div>
+                <div class="relative w-full h-full rounded-[5px] overflow-hidden">
+                    <img src="https://framerusercontent.com/images/jLQ85cDvY1iozNNZlxlp8oLNUjY.jpg?width=5462&height=3643"
+                        alt="" class="block w-full h-full object-cover object-center" />
+                </div>
+                <div class="relative w-full h-full rounded-[5px] overflow-hidden">
+                    <img src="https://framerusercontent.com/images/VoGvRKqTRxMkF6TG6A1ZtPmkpI.jpg?width=3792&height=4740"
+                        alt="" class="block w-full h-full object-cover object-center" />
+                </div>
+            </div>
+
+            <!-- Feature cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-[10px]">
+
+                <div
+                    class="flex flex-col gap-[16px] sm:gap-[20px] rounded-[5px] bg-white p-[20px] sm:p-[24px] border border-[#ebebeb]">
+                    <span
+                        class="flex items-center justify-center w-[36px] h-[36px] rounded-[5px] bg-[#E4FE00] flex-none">
+                        <svg class="w-[18px] h-[18px]" viewBox="0 0 256 256" fill="#0F3D3A">
+                            <path
+                                d="M106,112a6,6,0,0,1,6-6h32a6,6,0,0,1,0,12H112A6,6,0,0,1,106,112ZM230,72V200a14,14,0,0,1-14,14H40a14,14,0,0,1-14-14V72A14,14,0,0,1,40,58H82V48a22,22,0,0,1,22-22h48a22,22,0,0,1,22,22V58h42A14,14,0,0,1,230,72ZM94,58h68V48a10,10,0,0,0-10-10H104A10,10,0,0,0,94,48ZM38,72v42.79A186,186,0,0,0,128,138a185.91,185.91,0,0,0,90-23.22V72a2,2,0,0,0-2-2H40A2,2,0,0,0,38,72ZM218,200V128.37A198.12,198.12,0,0,1,128,150a198.05,198.05,0,0,1-90-21.62V200a2,2,0,0,0,2,2H216A2,2,0,0,0,218,200Z">
+                            </path>
+                        </svg>
+                    </span>
+                    <div class="flex flex-col gap-[6px]">
+                        <p class="text-[15px] sm:text-[16px] font-[500] tracking-[-0.03em] text-black">Business Strategy
+                        </p>
+                        <p
+                            class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                            Building scalable strategies for sustainable business growth plans.</p>
+                    </div>
+                </div>
+
+                <div
+                    class="flex flex-col gap-[16px] sm:gap-[20px] rounded-[5px] bg-white p-[20px] sm:p-[24px] border border-[#ebebeb]">
+                    <span
+                        class="flex items-center justify-center w-[36px] h-[36px] rounded-[5px] bg-[#E4FE00] flex-none">
+                        <svg class="w-[18px] h-[18px]" viewBox="0 0 256 256" fill="#0F3D3A">
+                            <path
+                                d="M102,109.5v-72a6,6,0,0,0-8-5.66A102,102,0,0,0,27.7,146.59a6,6,0,0,0,8.9,4.11l62.4-36A6,6,0,0,0,102,109.5ZM90,106l-51.66,29.8Q38,131.91,38,128A90.1,90.1,0,0,1,90,46.42Zm38-80a6,6,0,0,0-6,6v93L42.2,171.46a6,6,0,0,0-2.15,8.22A102,102,0,1,0,128,26Zm0,192a90.48,90.48,0,0,1-74.38-39.31L131,133.61a6,6,0,0,0,3-5.19V38.2A90,90,0,0,1,128,218Z">
+                            </path>
+                        </svg>
+                    </span>
+                    <div class="flex flex-col gap-[6px]">
+                        <p class="text-[15px] sm:text-[16px] font-[500] tracking-[-0.03em] text-black">Operational
+                            Excellence</p>
+                        <p
+                            class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                            Improving systems and workflows for stronger business efficiency.</p>
+                    </div>
+                </div>
+
+                <div
+                    class="flex flex-col gap-[16px] sm:gap-[20px] rounded-[5px] bg-white p-[20px] sm:p-[24px] border border-[#ebebeb]">
+                    <span
+                        class="flex items-center justify-center w-[36px] h-[36px] rounded-[5px] bg-[#E4FE00] flex-none">
+                        <svg class="w-[18px] h-[18px]" viewBox="0 0 256 256" fill="#0F3D3A">
+                            <path
+                                d="M229.19,213c-15.81-27.32-40.63-46.49-69.47-54.62a70,70,0,1,0-63.44,0C67.44,166.5,42.62,185.67,26.81,213a6,6,0,1,0,10.38,6C56.4,185.81,90.34,166,128,166s71.6,19.81,90.81,53a6,6,0,1,0,10.38-6ZM70,96a58,58,0,1,1,58,58A58.07,58.07,0,0,1,70,96Z">
+                            </path>
+                        </svg>
+                    </span>
+                    <div class="flex flex-col gap-[6px]">
+                        <p class="text-[15px] sm:text-[16px] font-[500] tracking-[-0.03em] text-black">Leadership &amp;
+                            Management</p>
+                        <p
+                            class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                            Empowering leaders with structured decision-making and direction.</p>
+                    </div>
+                </div>
+
+                <div
+                    class="flex flex-col gap-[16px] sm:gap-[20px] rounded-[5px] bg-white p-[20px] sm:p-[24px] border border-[#ebebeb]">
+                    <span
+                        class="flex items-center justify-center w-[36px] h-[36px] rounded-[5px] bg-[#E4FE00] flex-none">
+                        <svg class="w-[18px] h-[18px]" viewBox="0 0 256 256" fill="#0F3D3A">
+                            <path
+                                d="M230,48V88a6,6,0,0,1-12,0V54H184a6,6,0,0,1,0-12h40A6,6,0,0,1,230,48ZM72,202H38V168a6,6,0,0,0-12,0v40a6,6,0,0,0,6,6H72a6,6,0,0,0,0-12Zm152-40a6,6,0,0,0-6,6v34H184a6,6,0,0,0,0,12h40a6,6,0,0,0,6-6V168A6,6,0,0,0,224,162ZM32,94a6,6,0,0,0,6-6V54H72a6,6,0,0,0,0-12H32a6,6,0,0,0-6,6V88A6,6,0,0,0,32,94Zm155,71.21-56,32a6,6,0,0,1-6,0l-56-32A6,6,0,0,1,66,160V96a6,6,0,0,1,3-5.21l56-32a6,6,0,0,1,6,0l56,32A6,6,0,0,1,190,96v64A6,6,0,0,1,187,165.21ZM84.09,96,128,121.09,171.91,96,128,70.91ZM78,156.52l44,25.14V131.48L78,106.34Zm100,0V106.34l-44,25.14v50.18Z">
+                            </path>
+                        </svg>
+                    </span>
+                    <div class="flex flex-col gap-[6px]">
+                        <p class="text-[15px] sm:text-[16px] font-[500] tracking-[-0.03em] text-black">Corporate
+                            Transformation</p>
+                        <p
+                            class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                            Guiding companies through modern change with scalable solutions.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Fact Numbers -->
+        <!-- <div class="grid grid-cols-2 lg:grid-cols-4 gap-x-[16px] gap-y-[30px] lg:gap-[10px]">
+
+            <div class="flex flex-col items-start gap-[10px] sm:gap-[15px]">
+                <p
+                    class="text-[40px] sm:text-[44px] md:text-[54px] font-[500] leading-[1.1em] tracking-[-0.03em] text-black">
+                    250+</p>
+                <div class="w-full h-px bg-[#ebebeb]"></div>
+                <div class="flex flex-col items-start gap-[5px]">
+                    <p class="text-[13px] sm:text-[14px] leading-[1.2em] tracking-[-0.03em] font-[500] text-black">
+                        Projects Built</p>
+                    <p class="text-[11px] sm:text-[12px] leading-[1.2em] tracking-[-0.03em] font-[500] text-[#616161]">
+                        Successful consulting across industries.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-start gap-[10px] sm:gap-[15px]">
+                <p
+                    class="text-[40px] sm:text-[44px] md:text-[54px] font-[500] leading-[1.1em] tracking-[-0.03em] text-black">
+                    40+</p>
+                <div class="w-full h-px bg-[#ebebeb]"></div>
+                <div class="flex flex-col items-start gap-[5px]">
+                    <p class="text-[13px] sm:text-[14px] leading-[1.2em] tracking-[-0.03em] font-[500] text-black">
+                        Technologies</p>
+                    <p class="text-[11px] sm:text-[12px] leading-[1.2em] tracking-[-0.03em] font-[500] text-[#616161]">
+                        Trusted by growing global businesses.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-start gap-[10px] sm:gap-[15px]">
+                <p
+                    class="text-[40px] sm:text-[44px] md:text-[54px] font-[500] leading-[1.1em] tracking-[-0.03em] text-black">
+                    98%</p>
+                <div class="w-full h-px bg-[#ebebeb]"></div>
+                <div class="flex flex-col items-start gap-[5px]">
+                    <p class="text-[13px] sm:text-[14px] leading-[1.2em] tracking-[-0.03em] font-[500] text-black">
+                        Years Learning & Building</p>
+                    <p class="text-[11px] sm:text-[12px] leading-[1.2em] tracking-[-0.03em] font-[500] text-[#616161]">
+                        Consistent results with lasting impact.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-start gap-[10px] sm:gap-[15px]">
+                <p
+                    class="text-[40px] sm:text-[44px] md:text-[54px] font-[500] leading-[1.1em] tracking-[-0.03em] text-black">
+                    12+</p>
+                <div class="w-full h-px bg-[#ebebeb]"></div>
+                <div class="flex flex-col items-start gap-[5px]">
+                    <p class="text-[13px] sm:text-[14px] leading-[1.2em] tracking-[-0.03em] font-[500] text-black">
+                        Commitment to Quality</p>
+                    <p class="text-[11px] sm:text-[12px] leading-[1.2em] tracking-[-0.03em] font-[500] text-[#616161]">
+                        Collaborating with brands worldwide.</p>
+                </div>
+            </div>
+
+        </div> -->
+        <app-stats-section></app-stats-section>
+
+    </div>
+</section>
+<!--  -->
+<section class="w-full bg-[#f7f7f7]">
+    <div
+        class="relative flex flex-col w-full max-w-[1400px] m-auto gap-[50px] sm:gap-[65px] md:gap-[80px] px-[20px] sm:px-[24px] md:px-[30px] py-[60px] sm:py-[80px] md:py-[100px]">
+
+        <!-- Title Section -->
+        <div class="flex flex-col gap-[16px] sm:gap-[20px] max-w-full lg:max-w-[560px]">
+            <div class="flex items-center gap-[10px]">
+                <span class="flex items-center justify-center w-[20px] h-[20px] rounded-full bg-[#E4FE00] flex-none">
+                    <svg class="w-[13px] h-[13px]" viewBox="0 0 256 256" fill="#0F3D3A">
+                        <path
+                            d="M218.29,182.17a12,12,0,0,1-16.47,4.12L140,149.19V216a12,12,0,0,1-24,0V149.19l-61.82,37.1a12,12,0,1,1-12.35-20.58L104.68,128,41.83,90.29A12,12,0,1,1,54.18,69.71L116,106.81V40a12,12,0,0,1,24,0v66.81l61.82-37.1a12,12,0,1,1,12.35,20.58L151.32,128l62.85,37.71A12,12,0,0,1,218.29,182.17Z">
+                        </path>
+                    </svg>
+                </span>
+                <p class="text-[14px] sm:text-[15px] font-[500] tracking-[-0.03em] text-[#616161]">Why Work With Me</p>
+            </div>
+            <h2
+                class="text-[28px] sm:text-[34px] md:text-[40px] leading-[1.2em] tracking-[-0.03em] font-[500] text-black">
+                Building with purpose, precision, and a user-first mindset
+            </h2>
+            <p
+                class="text-[14px] sm:text-[15px] md:text-[16px] leading-[1.3em] sm:leading-[1.2em] tracking-[-0.03em] font-[500] text-[#616161] max-w-[480px]">
+                I combine software engineering, thoughtful design, and problem-solving to create digital products that
+                are clean, reliable, scalable, and enjoyable to use.
+            </p>
+        </div>
+
+        <!-- Content: Case card + Accordion -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-[30px] lg:gap-[20px]">
+
+            <!-- Case card -->
+            <div class="flex flex-col gap-[24px] sm:gap-[30px] rounded-[5px] bg-white p-[24px] sm:p-[30px]">
+                <div class="grid grid-cols-2 gap-[20px]">
+                    <div class="flex flex-col gap-[6px]">
+                        <p class="text-[26px] sm:text-[32px] font-[500] leading-[1.1em] tracking-[-0.03em] text-black">
+                            +38%</p>
+                        <p class="text-[13px] sm:text-[14px] font-[500] tracking-[-0.03em] text-[#616161]">Market
+                            Expansion</p>
+                    </div>
+                    <div class="flex flex-col gap-[6px]">
+                        <p class="text-[26px] sm:text-[32px] font-[500] leading-[1.1em] tracking-[-0.03em] text-black">
+                            +31%</p>
+                        <p class="text-[13px] sm:text-[14px] font-[500] tracking-[-0.03em] text-[#616161]">Lead
+                            Conversion</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-[16px] sm:gap-[20px]">
+                    <div class="relative w-full aspect-[5.2/1] max-w-[124px]">
+                        <img src="https://framerusercontent.com/images/H4dXzEz1NDaoEsloRwuxOi58NQc.svg?width=124&height=24"
+                            alt="Client logo" class="block w-full h-full object-contain object-left" />
+                    </div>
+                    <p
+                        class="text-[15px] sm:text-[16px] leading-[1.3em] sm:leading-[1.2em] tracking-[-0.03em] font-[500] text-black">
+                        Semono developed strategic growth frameworks, market positioning plans, and scalable business
+                        solutions to support long-term company expansion.
+                    </p>
+                    <div class="flex flex-wrap items-center gap-x-[16px] gap-y-[8px]">
+                        <div class="flex items-center gap-[8px]">
+                            <span class="w-[6px] h-[6px] rounded-full bg-[#616161] flex-none"></span>
+                            <p class="text-[13px] sm:text-[14px] font-[500] tracking-[-0.03em] text-[#616161]">Business
+                                Strategy</p>
+                        </div>
+                        <div class="flex items-center gap-[8px]">
+                            <span class="w-[6px] h-[6px] rounded-full bg-[#616161] flex-none"></span>
+                            <p class="text-[13px] sm:text-[14px] font-[500] tracking-[-0.03em] text-[#616161]">Brand
+                                &amp; Market Consulting</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="/testimonial" class="group relative flex w-fit items-center gap-[10px] mt-[6px]">
+                    <span class="text-[14px] sm:text-[15px] font-[500] tracking-[-0.03em] text-black/80">View all
+                        reviews</span>
+                    <span
+                        class="relative flex items-center justify-center w-[32px] h-[32px] sm:w-[36px] sm:h-[36px] rounded-full bg-[#E4FE00] overflow-hidden flex-none">
+                        <svg class="h-[16px] w-[16px] transition-transform duration-300 group-hover:translate-x-1"
+                            viewBox="0 0 256 256" fill="#0F3D3A">
+                            <path
+                                d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z">
+                            </path>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+
+            <!-- Accordion -->
+            <div class="flex flex-col gap-[10px]">
+
+                <!-- Item 1 -->
+                <details open class="group rounded-[5px] bg-white overflow-hidden">
+                    <summary
+                        class="flex items-center justify-between gap-[16px] cursor-pointer select-none p-[20px] sm:p-[24px] list-none [&::-webkit-details-marker]:hidden">
+                        <div class="flex items-center gap-[14px] sm:gap-[16px]">
+                            <p class="text-[13px] sm:text-[14px] font-[500] tracking-[-0.03em] text-[#616161]">01</p>
+                            <h6 class="text-[16px] sm:text-[18px] font-[500] tracking-[-0.03em] text-black">Clean &
+                                Maintainable Code</h6>
+                        </div>
+                        <span
+                            class="flex items-center justify-center w-[28px] h-[28px] sm:w-[32px] sm:h-[32px] rounded-full bg-black flex-none">
+                            <svg class="w-[14px] h-[14px] transition-transform duration-200 group-open:rotate-45"
+                                viewBox="0 0 256 256" fill="white">
+                                <path
+                                    d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z">
+                                </path>
+                            </svg>
+                        </span>
+                    </summary>
+                    <div class="flex flex-col gap-[16px] px-[20px] sm:px-[24px] pb-[20px] sm:pb-[24px]">
+                        <div class="grid grid-cols-2 gap-[6px]">
+                            <div class="relative w-full aspect-[4/3] rounded-[5px] overflow-hidden">
+                                <img src="https://framerusercontent.com/images/LGCJ2qj69DamRPSbZznF9pKpNtQ.jpg?width=6000&height=4002"
+                                    alt="" class="block w-full h-full object-cover object-center" />
+                            </div>
+                            <div class="relative w-full aspect-[4/3] rounded-[5px] overflow-hidden">
+                                <img src="https://framerusercontent.com/images/c8yTRHwU0lDfYXWKVCoGbX7HJs.jpg?width=5659&height=3773"
+                                    alt="" class="block w-full h-full object-cover object-center" />
+                            </div>
+                        </div>
+                        <p
+                            class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                            I write structured, readable, and maintainable code that makes applications easier to
+                            develop, test, and improve.
+                        </p>
+                    </div>
+                </details>
+
+                <!-- Item 2 -->
+                <details class="group rounded-[5px] bg-white overflow-hidden">
+                    <summary
+                        class="flex items-center justify-between gap-[16px] cursor-pointer select-none p-[20px] sm:p-[24px] list-none [&::-webkit-details-marker]:hidden">
+                        <div class="flex items-center gap-[14px] sm:gap-[16px]">
+                            <p class="text-[13px] sm:text-[14px] font-[500] tracking-[-0.03em] text-[#616161]">02</p>
+                            <h6 class="text-[16px] sm:text-[18px] font-[500] tracking-[-0.03em] text-black">User-Focused
+                                Design</h6>
+                        </div>
+                        <span
+                            class="flex items-center justify-center w-[28px] h-[28px] sm:w-[32px] sm:h-[32px] rounded-full bg-black flex-none">
+                            <svg class="w-[14px] h-[14px] transition-transform duration-200 group-open:rotate-45"
+                                viewBox="0 0 256 256" fill="white">
+                                <path
+                                    d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z">
+                                </path>
+                            </svg>
+                        </span>
+                    </summary>
+                    <div class="flex flex-col gap-[16px] px-[20px] sm:px-[24px] pb-[20px] sm:pb-[24px]">
+                        <div class="grid grid-cols-2 gap-[6px]">
+                            <div class="relative w-full aspect-[4/3] rounded-[5px] overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+                                    alt="" class="block w-full h-full object-cover object-center" />
+                            </div>
+                            <div class="relative w-full aspect-[4/3] rounded-[5px] overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+                                    alt="" class="block w-full h-full object-cover object-center" />
+                            </div>
+                        </div>
+                        <p
+                            class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                            I focus on creating intuitive interfaces and smooth experiences that put real user needs at
+                            the center.
+                        </p>
+                    </div>
+                </details>
+
+                <!-- Item 3 -->
+                <details class="group rounded-[5px] bg-white overflow-hidden">
+                    <summary
+                        class="flex items-center justify-between gap-[16px] cursor-pointer select-none p-[20px] sm:p-[24px] list-none [&::-webkit-details-marker]:hidden">
+                        <div class="flex items-center gap-[14px] sm:gap-[16px]">
+                            <p class="text-[13px] sm:text-[14px] font-[500] tracking-[-0.03em] text-[#616161]">03</p>
+                            <h6 class="text-[16px] sm:text-[18px] font-[500] tracking-[-0.03em] text-black">Problem
+                                Solving</h6>
+                        </div>
+                        <span
+                            class="flex items-center justify-center w-[28px] h-[28px] sm:w-[32px] sm:h-[32px] rounded-full bg-black flex-none">
+                            <svg class="w-[14px] h-[14px] transition-transform duration-200 group-open:rotate-45"
+                                viewBox="0 0 256 256" fill="white">
+                                <path
+                                    d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z">
+                                </path>
+                            </svg>
+                        </span>
+                    </summary>
+                    <div class="flex flex-col gap-[16px] px-[20px] sm:px-[24px] pb-[20px] sm:pb-[24px]">
+                        <div class="grid grid-cols-2 gap-[6px]">
+                            <div class="relative w-full aspect-[4/3] rounded-[5px] overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop"
+                                    alt="" class="block w-full h-full object-cover object-center" />
+                            </div>
+                            <div class="relative w-full aspect-[4/3] rounded-[5px] overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=600&fit=crop"
+                                    alt="" class="block w-full h-full object-cover object-center" />
+                            </div>
+                        </div>
+                        <p
+                            class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                            I approach technical challenges with logical thinking and practical solutions that address
+                            real-world problems.
+                        </p>
+                    </div>
+                </details>
+
+                <!-- Item 4 -->
+                <details class="group rounded-[5px] bg-white overflow-hidden">
+                    <summary
+                        class="flex items-center justify-between gap-[16px] cursor-pointer select-none p-[20px] sm:p-[24px] list-none [&::-webkit-details-marker]:hidden">
+                        <div class="flex items-center gap-[14px] sm:gap-[16px]">
+                            <p class="text-[13px] sm:text-[14px] font-[500] tracking-[-0.03em] text-[#616161]">04</p>
+                            <h6 class="text-[16px] sm:text-[18px] font-[500] tracking-[-0.03em] text-black">Modern
+                                Technologies</h6>
+                        </div>
+                        <span
+                            class="flex items-center justify-center w-[28px] h-[28px] sm:w-[32px] sm:h-[32px] rounded-full bg-black flex-none">
+                            <svg class="w-[14px] h-[14px] transition-transform duration-200 group-open:rotate-45"
+                                viewBox="0 0 256 256" fill="white">
+                                <path
+                                    d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z">
+                                </path>
+                            </svg>
+                        </span>
+                    </summary>
+                    <div class="flex flex-col gap-[16px] px-[20px] sm:px-[24px] pb-[20px] sm:pb-[24px]">
+                        <div class="grid grid-cols-2 gap-[6px]">
+                            <div class="relative w-full aspect-[4/3] rounded-[5px] overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&h=600&fit=crop"
+                                    alt="" class="block w-full h-full object-cover object-center" />
+                            </div>
+                            <div class="relative w-full aspect-[4/3] rounded-[5px] overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop"
+                                    alt="" class="block w-full h-full object-cover object-center" />
+                            </div>
+                        </div>
+                        <p
+                            class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                            I work with modern tools and technologies to build responsive web and mobile applications.
+                        </p>
+                    </div>
+                </details>
+
+                <!-- Item 5 -->
+                <details class="group rounded-[5px] bg-white overflow-hidden">
+                    <summary
+                        class="flex items-center justify-between gap-[16px] cursor-pointer select-none p-[20px] sm:p-[24px] list-none [&::-webkit-details-marker]:hidden">
+                        <div class="flex items-center gap-[14px] sm:gap-[16px]">
+                            <p class="text-[13px] sm:text-[14px] font-[500] tracking-[-0.03em] text-[#616161]">05</p>
+                            <h6 class="text-[16px] sm:text-[18px] font-[500] tracking-[-0.03em] text-black">Scalable
+                                Solutions</h6>
+                        </div>
+                        <span
+                            class="flex items-center justify-center w-[28px] h-[28px] sm:w-[32px] sm:h-[32px] rounded-full bg-black flex-none">
+                            <svg class="w-[14px] h-[14px] transition-transform duration-200 group-open:rotate-45"
+                                viewBox="0 0 256 256" fill="white">
+                                <path
+                                    d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z">
+                                </path>
+                            </svg>
+                        </span>
+                    </summary>
+                    <div class="flex flex-col gap-[16px] px-[20px] sm:px-[24px] pb-[20px] sm:pb-[24px]">
+                        <div class="grid grid-cols-2 gap-[6px]">
+                            <div class="relative w-full aspect-[4/3] rounded-[5px] overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&h=600&fit=crop"
+                                    alt="" class="block w-full h-full object-cover object-center" />
+                            </div>
+                            <div class="relative w-full aspect-[4/3] rounded-[5px] overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=600&fit=crop"
+                                    alt="" class="block w-full h-full object-cover object-center" />
+                            </div>
+                        </div>
+                        <p
+                            class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                            I build applications with architecture and development practices that allow them to grow and
+                            adapt over time.
+                        </p>
+                    </div>
+                </details>
+
+                <!-- Item 6 -->
+                <details class="group rounded-[5px] bg-white overflow-hidden">
+                    <summary
+                        class="flex items-center justify-between gap-[16px] cursor-pointer select-none p-[20px] sm:p-[24px] list-none [&::-webkit-details-marker]:hidden">
+                        <div class="flex items-center gap-[14px] sm:gap-[16px]">
+                            <p class="text-[13px] sm:text-[14px] font-[500] tracking-[-0.03em] text-[#616161]">06</p>
+                            <h6 class="text-[16px] sm:text-[18px] font-[500] tracking-[-0.03em] text-black">
+                                Continuous Learning</h6>
+                        </div>
+                        <span
+                            class="flex items-center justify-center w-[28px] h-[28px] sm:w-[32px] sm:h-[32px] rounded-full bg-black flex-none">
+                            <svg class="w-[14px] h-[14px] transition-transform duration-200 group-open:rotate-45"
+                                viewBox="0 0 256 256" fill="white">
+                                <path
+                                    d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z">
+                                </path>
+                            </svg>
+                        </span>
+                    </summary>
+                    <div class="flex flex-col gap-[16px] px-[20px] sm:px-[24px] pb-[20px] sm:pb-[24px]">
+                        <div class="grid grid-cols-2 gap-[6px]">
+                            <div class="relative w-full aspect-[4/3] rounded-[5px] overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
+                                    alt="" class="block w-full h-full object-cover object-center" />
+                            </div>
+                            <div class="relative w-full aspect-[4/3] rounded-[5px] overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800&h=600&fit=crop"
+                                    alt="" class="block w-full h-full object-cover object-center" />
+                            </div>
+                        </div>
+                        <p
+                            class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                            I continuously improve my skills, explore new technologies, and apply better development practices to my work.
+                        </p>
+                    </div>
+                </details>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<div
+    class="relative flex w-full flex-none flex-row place-content-center items-center gap-[10px] overflow-clip p-0 h-min will-change-[filter]">
+    <div class="absolute inset-0 rounded-[inherit]">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt=""
+            class="block w-full h-full rounded-[inherit] object-center object-cover">
+    </div>
+    <div
+        class="relative flex flex-1 w-full flex-row place-content-center items-center gap-[10px] overflow-clip bg-[#00000080] pt-[80px] px-[20px] pb-[60px] sm:pt-[140px] sm:px-[24px] sm:pb-[80px] md:pt-[200px] md:px-[30px] md:pb-[90px] lg:pt-[300px] lg:pb-[100px] h-min">
+        <div
+            class="relative flex flex-1 w-full max-w-[1400px] flex-col content-start justify-center items-start gap-[20px] sm:gap-[24px] md:gap-[30px] overflow-clip p-0 h-min">
+            <div
+                class="relative flex w-full max-w-full sm:max-w-[420px] md:max-w-[472px] flex-none flex-col place-content-center items-center gap-[16px] sm:gap-[20px] overflow-clip p-0 h-min">
+                <div
+                    class="relative flex flex-col shrink-0 justify-start flex-none w-full h-auto outline-none transform-none">
+                    <h2
+                        class="text-[28px] sm:text-[34px] md:text-[42px] font-[500] text-[#fff] leading-[1.15em] sm:leading-[1.1em] tracking-[-0.03em]">
+                        Ready to build something great?</h2>
+                </div>
+                <div
+                    class="relative flex flex-col shrink-0 justify-start flex-none w-full h-auto outline-none transform-none">
+                    <p
+                        class="text-[#f7f7f7] text-[14px] sm:text-[15px] md:text-[16px] leading-[1.35em] sm:leading-[1.2em] tracking-[-0.03em] font-[500]">
+                        Have a project, idea, or opportunity in mind? Let’s turn it into a
+                        modern digital experience with clean code, thoughtful design,
+                        and practical solutions.</p>
+                </div>
+            </div>
+            <div
+                class="relative flex w-full flex-none flex-wrap content-center justify-start items-center gap-[10px] overflow-clip p-0 h-min">
+                <div class="w-full sm:w-auto">
+                    <a routerLink="/contact" class="group relative flex w-full sm:w-fit items-center justify-center gap-[10px]
+         rounded-[5px] bg-white px-[20px] py-[12px] sm:py-[14px]
+         cursor-pointer overflow-hidden">
+                        <!-- Text -->
+                        <span class="text-[14px] sm:text-[15px] font-medium tracking-[-0.04em] text-black">
+                            Let's work together
+                        </span>
+                        <!-- Icon -->
+                        <svg class="h-[16px] w-[16px] sm:h-[18px] sm:w-[18px] transition-transform duration-300 group-hover:translate-x-1"
+                            viewBox="0 0 256 256" fill="currentColor">
+                            <path
+                                d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16h156.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72a8,8,0,0,1,0,11.32Z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="w-full sm:w-auto">
+                    <a routerLink="/services" class="group relative flex w-full sm:w-fit items-center justify-center
+
+         overflow-hidden rounded-[5px]
+
+         bg-[#E4FE00] px-[20px] py-[12px] sm:py-[14px]">
+
+                        <div class="relative h-[18px] sm:h-[20px] overflow-hidden flex items-center justify-center">
+
+
+
+                            <div class="transition-transform duration-300 
+
+             ">
+
+
+
+                                <p
+                                    class="text-[14px] sm:text-[15px] font-medium tracking-[-0.04em] text-[#0F3D3A] text-center">
+
+                                    Explore services
+
+                                </p>
+
+
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<section class="w-full bg-[#f7f7f7]">
+    <div
+        class="relative flex flex-col w-full max-w-[1400px] m-auto gap-[50px] sm:gap-[65px] md:gap-[80px] px-[20px] sm:px-[24px] md:px-[30px] py-[60px] sm:py-[80px] md:py-[100px]">
+
+        <!-- Title -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-[24px] lg:gap-[20px]">
+            <div class="flex flex-col gap-[12px] sm:gap-[16px] lg:col-span-4">
+                <img src="https://framerusercontent.com/images/kNCbAztGIEDICAoXBRN0omHQ17I.svg?width=386&height=75"
+                    alt="Semono" class="h-[22px] sm:h-[24px] w-auto object-contain" />
+                <p class="text-[14px] sm:text-[15px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                    Strategic consulting for scalable business growth.</p>
+            </div>
+            <div class="flex flex-col gap-[14px] sm:gap-[16px] lg:col-span-8">
+                <h2
+                    class="text-[28px] sm:text-[34px] md:text-[40px] leading-[1.2em] tracking-[-0.03em] font-[500] text-black">
+                    A clear process designed for business growth</h2>
+                <p
+                    class="text-[14px] sm:text-[15px] md:text-[16px] leading-[1.3em] sm:leading-[1.2em] tracking-[-0.03em] font-[500] text-[#616161] max-w-[560px]">
+                    Semono follows a structured consulting approach that helps businesses identify challenges, develop
+                    effective strategies, and implement scalable solutions with confidence.</p>
+            </div>
+        </div>
+
+        <!-- 4-step grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[16px]">
+
+            <div class="flex flex-col gap-[16px] sm:gap-[20px] rounded-[5px] bg-white p-[20px] sm:p-[24px]">
+                <span class="inline-flex w-fit items-center rounded-[5px] bg-[#E4FE00] px-[10px] py-[6px]">
+                    <p class="text-[13px] font-[500] tracking-[-0.03em] text-[#0F3D3A]">Step 01</p>
+                </span>
+                <div class="flex flex-col gap-[8px]">
+                    <h6 class="text-[17px] sm:text-[18px] font-[500] tracking-[-0.03em] text-black">Planning</h6>
+                    <p class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                        We evaluate business operations, company objectives, and market challenges to identify growth
+                        opportunities.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-[16px] sm:gap-[20px] rounded-[5px] bg-white p-[20px] sm:p-[24px]">
+                <span class="inline-flex w-fit items-center rounded-[5px] bg-[#E4FE00] px-[10px] py-[6px]">
+                    <p class="text-[13px] font-[500] tracking-[-0.03em] text-[#0F3D3A]">Step 02</p>
+                </span>
+                <div class="flex flex-col gap-[8px]">
+                    <h6 class="text-[17px] sm:text-[18px] font-[500] tracking-[-0.03em] text-black">Requirements
+                        Analysis
+                    </h6>
+                    <p class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                        Our team creates structured consulting strategies focused on efficiency, scalability, and
+                        business growth.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-[16px] sm:gap-[20px] rounded-[5px] bg-white p-[20px] sm:p-[24px]">
+                <span class="inline-flex w-fit items-center rounded-[5px] bg-[#E4FE00] px-[10px] py-[6px]">
+                    <p class="text-[13px] font-[500] tracking-[-0.03em] text-[#0F3D3A]">Step 03</p>
+                </span>
+                <div class="flex flex-col gap-[8px]">
+                    <h6 class="text-[17px] sm:text-[18px] font-[500] tracking-[-0.03em] text-black">System Design</h6>
+                    <p class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                        We support strategy execution through workflow improvements, leadership guidance, and
+                        operational planning.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-[16px] sm:gap-[20px] rounded-[5px] bg-white p-[20px] sm:p-[24px]">
+                <span class="inline-flex w-fit items-center rounded-[5px] bg-[#E4FE00] px-[10px] py-[6px]">
+                    <p class="text-[13px] font-[500] tracking-[-0.03em] text-[#0F3D3A]">Step 04</p>
+                </span>
+                <div class="flex flex-col gap-[8px]">
+                    <h6 class="text-[17px] sm:text-[18px] font-[500] tracking-[-0.03em] text-black">Development
+                    </h6>
+                    <p class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                        Continuous performance analysis helps ensure strategies remain effective and aligned with
+                        business goals.</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-[16px] sm:gap-[20px] rounded-[5px] bg-white p-[20px] sm:p-[24px]">
+                <span class="inline-flex w-fit items-center rounded-[5px] bg-[#E4FE00] px-[10px] py-[6px]">
+                    <p class="text-[13px] font-[500] tracking-[-0.03em] text-[#0F3D3A]">Step 04</p>
+                </span>
+                <div class="flex flex-col gap-[8px]">
+                    <h6 class="text-[17px] sm:text-[18px] font-[500] tracking-[-0.03em] text-black">Development
+                    </h6>
+                    <p class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                        Continuous performance analysis helps ensure strategies remain effective and aligned with
+                        business goals.</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-[16px] sm:gap-[20px] rounded-[5px] bg-white p-[20px] sm:p-[24px]">
+                <span class="inline-flex w-fit items-center rounded-[5px] bg-[#E4FE00] px-[10px] py-[6px]">
+                    <p class="text-[13px] font-[500] tracking-[-0.03em] text-[#0F3D3A]">Step 04</p>
+                </span>
+                <div class="flex flex-col gap-[8px]">
+                    <h6 class="text-[17px] sm:text-[18px] font-[500] tracking-[-0.03em] text-black">Development
+                    </h6>
+                    <p class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                        Continuous performance analysis helps ensure strategies remain effective and aligned with
+                        business goals.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero image -->
+        <div class="relative w-full rounded-[5px] overflow-hidden aspect-[16/9] sm:aspect-[2/1] md:aspect-[1.5/1]">
+            <img src="https://framerusercontent.com/images/wWpPPG7m36vpFlOFgMIa2Kj0djo.jpg?width=4724&height=3149"
+                alt="" class="block w-full h-full object-cover object-center" />
+        </div>
+
+        <!-- Tabbed panel -->
+        <div class="grid grid-cols-1 lg:grid-cols-[1fr_320px] xl:grid-cols-[1fr_380px] gap-[20px] sm:gap-[24px]">
+
+            <div class="flex flex-col gap-[20px] sm:gap-[24px] rounded-[5px] bg-white p-[24px] sm:p-[30px]">
+
+                <!-- Pure-CSS tabs -->
+                <input type="radio" name="process-tab" id="tab-1" class="peer/tab1 hidden" checked />
+                <input type="radio" name="process-tab" id="tab-2" class="peer/tab2 hidden" />
+                <input type="radio" name="process-tab" id="tab-3" class="peer/tab3 hidden" />
+
+                <div class="flex flex-col sm:flex-row gap-[6px] rounded-[5px] bg-[#f7f7f7] p-[6px]">
+                    <label for="tab-1"
+                        class="flex-1 flex items-center justify-center rounded-[5px] px-[14px] py-[10px] cursor-pointer text-[13px] sm:text-[14px] font-[500] tracking-[-0.03em] text-[#616161] peer-checked/tab1:bg-white peer-checked/tab1:text-black transition-colors">
+                        Leadership Strategy
+                    </label>
+                    <label for="tab-2"
+                        class="flex-1 flex items-center justify-center rounded-[5px] px-[14px] py-[10px] cursor-pointer text-[13px] sm:text-[14px] font-[500] tracking-[-0.03em] text-[#616161] peer-checked/tab2:bg-white peer-checked/tab2:text-black transition-colors">
+                        Process Optimization
+                    </label>
+                    <label for="tab-3"
+                        class="flex-1 flex items-center justify-center rounded-[5px] px-[14px] py-[10px] cursor-pointer text-[13px] sm:text-[14px] font-[500] tracking-[-0.03em] text-[#616161] peer-checked/tab3:bg-white peer-checked/tab3:text-black transition-colors">
+                        Organizational Growth
+                    </label>
+                </div>
+
+                <!-- Tab 1 content -->
+                <div class="hidden peer-checked/tab1:flex flex-col gap-[20px] sm:gap-[24px]">
+                    <p class="text-[14px] sm:text-[15px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                        Semono helps leadership teams strengthen decision-making, improve organizational alignment, and
+                        create clear strategic direction for sustainable business growth.</p>
+                    <div class="flex flex-col gap-[16px] sm:gap-[20px]">
+                        <div class="flex items-start gap-[10px]">
+                            <span class="w-[6px] h-[6px] rounded-full bg-[#616161] flex-none mt-[8px]"></span>
+                            <div class="flex flex-col gap-[4px]">
+                                <p class="text-[14px] sm:text-[15px] font-[500] tracking-[-0.03em] text-black">Executive
+                                    Decision-Making</p>
+                                <p
+                                    class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                                    Support leaders with structured frameworks that improve operational clarity and
+                                    long-term business confidence.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-[10px]">
+                            <span class="w-[6px] h-[6px] rounded-full bg-[#616161] flex-none mt-[8px]"></span>
+                            <div class="flex flex-col gap-[4px]">
+                                <p class="text-[14px] sm:text-[15px] font-[500] tracking-[-0.03em] text-black">
+                                    Organizational Alignment</p>
+                                <p
+                                    class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                                    Align company vision, leadership priorities, and internal collaboration to improve
+                                    overall performance.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-[10px]">
+                            <span class="w-[6px] h-[6px] rounded-full bg-[#616161] flex-none mt-[8px]"></span>
+                            <div class="flex flex-col gap-[4px]">
+                                <p class="text-[14px] sm:text-[15px] font-[500] tracking-[-0.03em] text-black">Strategic
+                                    Growth Planning</p>
+                                <p
+                                    class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                                    Develop scalable leadership strategies focused on sustainable growth and future
+                                    business expansion.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://cal.com/" target="_blank" rel="noopener"
+                        class="group relative flex w-fit items-center justify-center gap-[10px] rounded-[5px] bg-[#E4FE00] px-[20px] py-[12px] sm:py-[14px] overflow-hidden">
+                        <div class="relative h-[18px] sm:h-[20px] overflow-hidden flex items-center justify-center">
+                            <div class="transition-transform duration-300 group-hover:-translate-y-full">
+                                <p
+                                    class="text-[14px] sm:text-[15px] font-medium tracking-[-0.04em] text-[#0F3D3A] text-center">
+                                    Book a free consultation</p>
+                                <p
+                                    class="text-[14px] sm:text-[15px] font-medium tracking-[-0.04em] text-[#0F3D3A] text-center">
+                                    Book a free consultation</p>
+                            </div>
+                        </div>
+                        <svg class="h-[16px] w-[16px] sm:h-[18px] sm:w-[18px] transition-transform duration-300 group-hover:translate-x-1 flex-none"
+                            viewBox="0 0 256 256" fill="#0F3D3A">
+                            <path
+                                d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Tab 2 content -->
+                <div class="hidden peer-checked/tab2:flex flex-col gap-[20px] sm:gap-[24px]">
+                    <p class="text-[14px] sm:text-[15px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                        Semono helps businesses streamline internal workflows, remove operational bottlenecks, and build
+                        repeatable processes that support consistent performance.</p>
+                    <div class="flex flex-col gap-[16px] sm:gap-[20px]">
+                        <div class="flex items-start gap-[10px]">
+                            <span class="w-[6px] h-[6px] rounded-full bg-[#616161] flex-none mt-[8px]"></span>
+                            <div class="flex flex-col gap-[4px]">
+                                <p class="text-[14px] sm:text-[15px] font-[500] tracking-[-0.03em] text-black">Workflow
+                                    Analysis</p>
+                                <p
+                                    class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                                    Identify inefficiencies across teams and systems to uncover practical opportunities
+                                    for improvement.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-[10px]">
+                            <span class="w-[6px] h-[6px] rounded-full bg-[#616161] flex-none mt-[8px]"></span>
+                            <div class="flex flex-col gap-[4px]">
+                                <p class="text-[14px] sm:text-[15px] font-[500] tracking-[-0.03em] text-black">Process
+                                    Standardization</p>
+                                <p
+                                    class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                                    Build consistent, repeatable systems that reduce friction and improve operational
+                                    reliability.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-[10px]">
+                            <span class="w-[6px] h-[6px] rounded-full bg-[#616161] flex-none mt-[8px]"></span>
+                            <div class="flex flex-col gap-[4px]">
+                                <p class="text-[14px] sm:text-[15px] font-[500] tracking-[-0.03em] text-black">
+                                    Continuous Improvement</p>
+                                <p
+                                    class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                                    Establish ongoing review cycles that keep processes efficient as the business
+                                    scales.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://cal.com/" target="_blank" rel="noopener"
+                        class="group relative flex w-fit items-center justify-center gap-[10px] rounded-[5px] bg-[#E4FE00] px-[20px] py-[12px] sm:py-[14px] overflow-hidden">
+                        <div class="relative h-[18px] sm:h-[20px] overflow-hidden flex items-center justify-center">
+                            <div class="transition-transform duration-300 group-hover:-translate-y-full">
+                                <p
+                                    class="text-[14px] sm:text-[15px] font-medium tracking-[-0.04em] text-[#0F3D3A] text-center">
+                                    Book a free consultation</p>
+                                <p
+                                    class="text-[14px] sm:text-[15px] font-medium tracking-[-0.04em] text-[#0F3D3A] text-center">
+                                    Book a free consultation</p>
+                            </div>
+                        </div>
+                        <svg class="h-[16px] w-[16px] sm:h-[18px] sm:w-[18px] transition-transform duration-300 group-hover:translate-x-1 flex-none"
+                            viewBox="0 0 256 256" fill="#0F3D3A">
+                            <path
+                                d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Tab 3 content -->
+                <div class="hidden peer-checked/tab3:flex flex-col gap-[20px] sm:gap-[24px]">
+                    <p class="text-[14px] sm:text-[15px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                        Semono supports organizations through structural change, helping teams scale sustainably while
+                        maintaining culture, clarity, and performance.</p>
+                    <div class="flex flex-col gap-[16px] sm:gap-[20px]">
+                        <div class="flex items-start gap-[10px]">
+                            <span class="w-[6px] h-[6px] rounded-full bg-[#616161] flex-none mt-[8px]"></span>
+                            <div class="flex flex-col gap-[4px]">
+                                <p class="text-[14px] sm:text-[15px] font-[500] tracking-[-0.03em] text-black">Scalable
+                                    Team Structures</p>
+                                <p
+                                    class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                                    Design organizational structures that support growth without sacrificing clarity or
+                                    accountability.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-[10px]">
+                            <span class="w-[6px] h-[6px] rounded-full bg-[#616161] flex-none mt-[8px]"></span>
+                            <div class="flex flex-col gap-[4px]">
+                                <p class="text-[14px] sm:text-[15px] font-[500] tracking-[-0.03em] text-black">Change
+                                    Management</p>
+                                <p
+                                    class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                                    Guide teams through transitions with communication frameworks that reduce
+                                    disruption.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-[10px]">
+                            <span class="w-[6px] h-[6px] rounded-full bg-[#616161] flex-none mt-[8px]"></span>
+                            <div class="flex flex-col gap-[4px]">
+                                <p class="text-[14px] sm:text-[15px] font-[500] tracking-[-0.03em] text-black">Long-Term
+                                    Capacity Planning</p>
+                                <p
+                                    class="text-[13px] sm:text-[14px] leading-[1.3em] tracking-[-0.03em] font-[500] text-[#616161]">
+                                    Prepare organizational systems and headcount plans for sustained, multi-year growth.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://cal.com/" target="_blank" rel="noopener"
+                        class="group relative flex w-fit items-center justify-center gap-[10px] rounded-[5px] bg-[#E4FE00] px-[20px] py-[12px] sm:py-[14px] overflow-hidden">
+                        <div class="relative h-[18px] sm:h-[20px] overflow-hidden flex items-center justify-center">
+                            <div class="transition-transform duration-300 group-hover:-translate-y-full">
+                                <p
+                                    class="text-[14px] sm:text-[15px] font-medium tracking-[-0.04em] text-[#0F3D3A] text-center">
+                                    Book a free consultation</p>
+                                <p
+                                    class="text-[14px] sm:text-[15px] font-medium tracking-[-0.04em] text-[#0F3D3A] text-center">
+                                    Book a free consultation</p>
+                            </div>
+                        </div>
+                        <svg class="h-[16px] w-[16px] sm:h-[18px] sm:w-[18px] transition-transform duration-300 group-hover:translate-x-1 flex-none"
+                            viewBox="0 0 256 256" fill="#0F3D3A">
+                            <path
+                                d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Portrait image -->
+            <div class="relative w-full h-[280px] sm:h-[360px] lg:h-full rounded-[5px] overflow-hidden">
+                <img src="https://framerusercontent.com/images/zcZiFkzDPAPXPpoqzCrB22k0uo4.jpg?width=5405&height=8103"
+                    alt="" class="block w-full h-full object-cover object-center" />
+            </div>
+
+        </div>
+
+    </div>
+</section>
+ 

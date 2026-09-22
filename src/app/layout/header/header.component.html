@@ -1,0 +1,89 @@
+<div class="fixed top-0 left-0 right-0 w-full z-[8] flex-none h-auto order-[-1000]">
+  <div
+    class="bg-[#f7f7f7] w-full h-min overflow-clip relative py-[16px] sm:py-[18px] md:py-[20px] px-[20px] sm:px-[24px] md:px-[30px]">
+    <div
+      class="relative flex flex-row max-w-[1400px] m-auto w-full items-center justify-between gap-[20px] overflow-visible p-0">
+      <!-- Logo -->
+      <div class="relative flex-none flex items-center">
+        <a href="./" class="relative block w-[88px] sm:w-[96px] md:w-[102px] h-[18px] sm:h-[19px] md:h-[20px]">
+          <img decoding="auto" width="386" height="75"
+            src="https://framerusercontent.com/images/kNCbAztGIEDICAoXBRN0omHQ17I.svg?width=386&height=75" alt=""
+            class="block w-full h-full object-contain object-left" />
+        </a>
+      </div>
+
+      <!-- Desktop nav links -->
+      <div
+        class="hidden lg:flex flex-1 flex-row place-content-center items-center gap-[30px] h-min overflow-visible p-0">
+        <a routerLink="/home" routerLinkActive="opacity-100" [routerLinkActiveOptions]="{ exact: true }"
+          class="text-[16px] font-[500] leading-[1.2em] tracking-[-0.03em] text-black whitespace-nowrap opacity-60 transition-opacity hover:opacity-100">
+          Home
+        </a>
+
+        <a routerLink="/about" routerLinkActive="opacity-100"
+          class="text-[16px] font-[500] leading-[1.2em] tracking-[-0.03em] text-black whitespace-nowrap opacity-60 transition-opacity hover:opacity-100">
+          About
+        </a>
+
+        <a routerLink="/services" routerLinkActive="opacity-100"
+          class="text-[16px] font-[500] leading-[1.2em] tracking-[-0.03em] text-black whitespace-nowrap opacity-60 transition-opacity hover:opacity-100">
+          Services
+        </a>
+        <a routerLink="/projects" routerLinkActive="opacity-100"
+          class="flex items-center justify-center text-[16px] font-[500] leading-[1.2em] tracking-[-0.03em] text-black opacity-60 transition-opacity hover:opacity-100 whitespace-nowrap">
+          Projects
+        </a>
+      </div>
+
+      <!-- Right side: CTA (desktop) + hamburger toggle (mobile/tablet) -->
+      <div class="relative flex flex-none flex-row items-center gap-[12px] sm:gap-[16px] h-min overflow-visible p-0">
+        <a routerLink="/contact"
+          class="hidden lg:flex items-center justify-center gap-[10px] rounded-[5px] bg-[#E4FE00] px-[18px] py-[12px] text-[15px] font-[500] tracking-[-0.04em] text-[#0f3d3a] no-underline transition-opacity hover:opacity-90">
+          Contact Us
+        </a>
+
+        <!-- Mobile hamburger toggle (pure CSS, no JS) -->
+        <input type="checkbox" id="nav-toggle" class="peer hidden" />
+        <label for="nav-toggle"
+          class="lg:hidden relative flex items-center justify-center w-[40px] h-[40px] rounded-[5px] bg-white cursor-pointer flex-none">
+          <svg class="w-[20px] h-[20px] peer-checked:hidden" viewBox="0 0 256 256" fill="black">
+            <path
+              d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z">
+            </path>
+          </svg>
+        </label>
+
+        <!-- Mobile menu panel -->
+        <label for="nav-toggle"
+          class="hidden peer-checked:flex lg:hidden fixed inset-0 top-0 bg-black/30 z-[7]"></label>
+        <div
+          class="hidden peer-checked:flex lg:hidden fixed top-0 right-0 z-[9] flex-col w-[80vw] max-w-[320px] h-screen bg-white shadow-xl p-[24px] gap-[8px]">
+          <div class="flex items-center justify-between mb-[16px]">
+            <img src="https://framerusercontent.com/images/kNCbAztGIEDICAoXBRN0omHQ17I.svg?width=386&height=75" alt=""
+              class="h-[18px] w-auto object-contain" />
+            <label for="nav-toggle"
+              class="flex items-center justify-center w-[36px] h-[36px] rounded-[5px] bg-[#f7f7f7] cursor-pointer">
+              <svg class="w-[16px] h-[16px]" viewBox="0 0 256 256" fill="black">
+                <path
+                  d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z">
+                </path>
+              </svg>
+            </label>
+          </div>
+          <a href="/home"
+            class="py-[12px] text-[17px] font-[500] tracking-[-0.03em] text-black border-b border-black/10">Home</a>
+          <a href="/about"
+            class="py-[12px] text-[17px] font-[500] tracking-[-0.03em] text-black border-b border-black/10">About</a>
+          <a href="/services"
+            class="py-[12px] text-[17px] font-[500] tracking-[-0.03em] text-black border-b border-black/10">Services</a>
+          <a href="/blog"
+            class="py-[12px] text-[17px] font-[500] tracking-[-0.03em] text-black border-b border-black/10">Projects</a>
+          <a href="/contact"
+            class="py-[12px] text-[17px] font-[500] tracking-[-0.03em] text-black border-b border-black/10">Contact
+            us</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
